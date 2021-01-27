@@ -1,16 +1,16 @@
-% ‡‰^“®Šw‚Ìƒfƒ‚@ƒ‰ƒ“ƒ_ƒ€‚Èp¨‚ğ•\¦
+% é †é‹å‹•å­¦ã®ãƒ‡ãƒ¢ã€€ãƒ©ãƒ³ãƒ€ãƒ ãªå§¿å‹¢ã‚’è¡¨ç¤º
 % fk_random.m
 % 2004 Dec.17 s.kajita AIST
 
 close all
-clear              % ì‹Æ—Ìˆæ‚Ìƒƒ‚ƒŠ‚ğ‰Šú‰»
-global uLINK       % ƒOƒ[ƒoƒ‹•Ï”‚Æ‚µ‚ÄCŠO•”ŠÖ”‚©‚ç‚ÌQÆ‚ğ‰Â”\‚É‚·‚é
+clear              
+global uLINK       
 
-SetupBipedRobot;   % }2.19C}2.20‚Ì2‘«•àsƒƒ{ƒbƒg‚Ìƒf[ƒ^‚ğİ’è
+SetupBipedRobot;   % Set up the robot geometry (function) and other parameters
 
-%%%%%%%%%%% ƒ‰ƒ“ƒ_ƒ€‚Èp¨@%%%%%%%%%%%%
+%%%%%%%%%%% A Random posture based on the joint angles (FK)ã€€%%%%%%%%%%%%
 
-rand('state',0);  %—”‰Šúó‘Ô
+rand('state',0);  % A random number is generated at the initial state
 
 figure
 while 1
@@ -36,6 +36,6 @@ while 1
     zlim([0.1 1.3])
     grid on
     
-    fprintf('Ctrl-C:I—¹, ‚»‚êˆÈŠOF•Ê‚Ìp¨‚ğ•\¦\n');
+    fprintf('Ctrl-C:çµ‚äº†, ãã‚Œä»¥å¤–ï¼šåˆ¥ã®å§¿å‹¢ã‚’è¡¨ç¤º\n');
     pause
 end
