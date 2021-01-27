@@ -1,4 +1,4 @@
-% Forward Kinematics (Random Positions) for Biped Robot
+% Forward Kinematics (Random Posture) for Biped Robot
 % fk_random.m
 % 2004 Dec.17 s.kajita AIST
 
