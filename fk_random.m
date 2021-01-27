@@ -36,6 +36,6 @@ while 1
     zlim([0.1 1.3])
     grid on
     
-    fprintf('Ctrl-C:終了, それ以外：別の姿勢を表示\n');
+    fprintf('Ctrl-C: Exit, Other: Show different posture \n');
     pause
 end
