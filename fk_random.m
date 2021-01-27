@@ -1,4 +1,4 @@
-% 順運動学のデモ　ランダムな姿勢を表示
+% Forward Kinematics (Random Positions) for Biped Robot
 % fk_random.m
 % 2004 Dec.17 s.kajita AIST
 
