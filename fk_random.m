@@ -17,7 +17,7 @@ while 1
     qR1 = 2/3*pi*(rand(6,1)-0.5);  %  -pi/2 < q < pi/2.....Generating a 6-by-1 column vector of random numbers
     qR1(4) = pi*rand;          %   0 < q4 < pi 
     
-    qL1 = pi*(rand(6,1)-0.5);  %  -pi/2 < q < pi/2
+    qL1 = pi*(rand(6,1)-0.5);  %  -pi/2 < q < pi/2.....Generating a 6-by-1 column vector of random numbers
     qL1(4) = pi*rand;          %   0 < q4 < pi 
     
     for n=0:5
