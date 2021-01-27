@@ -39,10 +39,10 @@ end
 
 uLINK(BODY).p = [0.0, 0.0, 0.65]';
 uLINK(BODY).R = eye(3);
-ForwardKinematics(1);
+ForwardKinematics(1);               % Set up the absolute poition of the robot with all q = 0
 
 uLINK(BODY).v = [0 0 0]';
 uLINK(BODY).w = [0 0 0]';
 for n=1:length(uLINK)
-    uLINK(n).dq     = 0;            % joitn speed   [rad/s]
+    uLINK(n).dq     = 0;            % joint speed   [rad/s]
 end
